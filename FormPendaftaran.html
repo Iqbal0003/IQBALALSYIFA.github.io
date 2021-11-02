@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+<body bgcolor="#dedede " style="font-family: 'comic sans ms', sans-serif; ">
+
+   <!-- Membuat Formulir Daftar -->
+   <div>
+    <h2 style="text-align: center; margin-top: 20px;">
+        <font color="black">Formulir Pendaftaran</font>
+    </h2>
+
+    <form action="index.html">
+        <table align="center" cellspacing="10">
+            
+            <tr>
+                <td>
+                    <label for="name">
+                        <font color="Black">NAMA</font>
+                    </label> 
+                </td>
+                <td>
+                    <input type="text" id="name" name="name" style="width: 272px; height: 25px;" ><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="alamat">
+                        <font color="Black">ALAMAT</font>
+                    </label>
+                     
+                </td>
+                <td>
+                    <textarea name="alamat"cols="38" rows="5"></textarea> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">
+                        <font color="Black">No. HP/WA</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" name="phone" style="width: 272px; height: 25px;"> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">
+                        <font color="Black"> EMAIL</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" style="width: 272px; height: 25px;"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Jurusan">
+                        <font color="Black">Pilih Jurusan</font> <br>
+                    </label> 
+                </td>
+                <td>
+                    <select id="Jurusan" name="Jurusan" style="width: 280px; height: 25px;" >
+                        <option>Pilih</option>
+                        <option value="Jurusan">Akuntansi</option>
+                        <option value="Jurusan">Administrasi Perkantoran</option>
+                        <option value="Jurusan">Pemasaran</option>
+                        <option value="Jurusan">Teknik Komputer dan Jaringan</option>
+                    </select> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Lulusan">
+                        <font color="Black">Lulusan SMP</font>
+                    </label>
+                <td>
+                    <input type="Lulusan" id="Lulusan" name="Lulusan" style="width: 272px; height: 25px;"> <br>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tanggalDaftar">
+                        <font color="Black">Pilih Tanggal</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="date" id="tanggalDaftar" name="tanggalDaftar" style="width: 275px; height: 25px;" >
+                </td>
+            </tr>
+        </table>
+
+        <!-- Membuat Button -->
+        <div style="text-align: center; margin-top: 20px;">
+            <input  type="submit" onclick="alert('Pendaftaran diterima, kami akan proses kurang dari 1x24 jam')" 
+            value="DAFTAR" style="padding:5px 10px; border-radius: 8px; color: white; cursor: pointer; 
+            background-color: rgb(23, 196, 23); box-shadow: 0 0 5px grey;" >
+            <input  type="reset" value="BATAL" style="padding:5px 10px; border-radius: 8px; color: white; 
+            cursor: pointer; background-color: rgb(184, 30, 30); box-shadow: 0 0 5px grey;" >
+        </div>
+    </form>
+</div>
+
+
+
+</body>
+</html>
